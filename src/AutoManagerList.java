@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class AutoManager {
+public class AutoManagerList {
 
     /**
      * TODO:
@@ -25,11 +25,12 @@ public class AutoManager {
      * - ottenere la potenza massima di tutto il parco auto
      * - ottenere l'auto con la potenza massima di tutto il
      * parco auto
+     * - definire un toString sensato
      */
 
     private List<Auto> autos;
 
-    public AutoManager() {
+    public AutoManagerList() {
 
         autos = new ArrayList<>();
     }
